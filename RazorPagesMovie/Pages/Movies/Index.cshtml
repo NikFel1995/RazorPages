@@ -13,12 +13,13 @@
 
 <form>
     <p>
+        Genre:
         <select asp-for="MovieGenre" asp-items="Model.Genres">
             <option value="">All</option>
         </select>
 
         Title: <input type="text" name="SearchString">
-        <input type="submit" value="Filter"/>
+        <input type="submit" value="Filter" />
     </p>
 </form>
 
