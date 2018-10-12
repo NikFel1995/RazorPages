@@ -5,11 +5,11 @@ using RazorPagesMovie.Models;
 
 namespace RazorPagesMovie.Pages.Movies
 {
-    public class MoviesModel : PageModel
+    public class CreateModel : PageModel
     {
         private readonly RazorPagesMovieContext _context;
 
-        public MoviesModel(RazorPagesMovieContext context)
+        public CreateModel(RazorPagesMovieContext context)
         {
             _context = context;
         }
